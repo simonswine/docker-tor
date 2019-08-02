@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.10
 
 EXPOSE 9150
 CMD ["/usr/bin/tor"]
